@@ -1,14 +1,28 @@
-@import "base/variables";
+
 * {
 	font-family: 'Museo Sans', sans-serif;
 	margin: 0;
 	padding: 0;
 }
 
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+
 .container {
 	max-width: 950px;
 	margin: 0 auto;
 }
 
+@import "base/variables";
+@import "block/promo";
+@import "block/header";
+@import "block/buttons";
 
 
