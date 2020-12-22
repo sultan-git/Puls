@@ -18,11 +18,15 @@ ul {
 .container {
 	max-width: 950px;
 	margin: 0 auto;
+	padding: 0 10px;
 }
 
 @import "base/variables";
 @import "block/promo";
 @import "block/header";
 @import "block/buttons";
+@import "block/advantages";
+@import "media";
+
 
 
