@@ -29,6 +29,18 @@
             margin-top: 50px;
         }
     }
+    .consultation {
+        height: 570px;
+        padding-top: 50px;
+        &__title {
+            font-size: 25px;
+            margin-bottom: 0;
+        }
+        &__descr {
+            font-size: 14px;
+            padding-top: 30px;
+        }
+    }
     
 }
 
@@ -93,5 +105,30 @@
             font-size: 13px;
             margin-top: 40px;            
         }
+        &_submit {
+            width: 100%;
+            font-size: 16px;
+        }
+    }
+    .consultation {
+        height: 500px;
+        padding-top: 50px;
+        padding-bottom: 0;
+        &__title {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 0;
+            br {
+                display: none;
+            }
+        }
+        &__descr {
+            text-align: center;
+            padding-top: 20px;
+        }
+    }
+    .feed-form {
+        margin: 0 auto;
+        margin-top: 25px;
     }
 }
