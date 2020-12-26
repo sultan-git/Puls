@@ -16,6 +16,7 @@ ul {
 
 
 .container {
+	position: relative;
 	max-width: 950px;
 	margin: 0 auto;
 	padding: 0 10px;
@@ -28,6 +29,7 @@ ul {
 @import "block/advantages";
 @import "block/consultation";
 @import "block/forms";
+@import "block/carousel";
 
 @import "media";
 
