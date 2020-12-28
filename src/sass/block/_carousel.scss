@@ -2,9 +2,9 @@
     padding: 81px 0;
     &__inner {
         width: 750px;
-        margin: 0 auto;
+        text-align: center;
     }
-    .prev, .next {
+    .slick-prev, .slick-next {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -16,15 +16,31 @@
             height: 50px;
         }
     }
-    .next {
+    .slick-next {
         right: -66px;
         left: auto;
+    }   
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        li {
+            margin: 0 10px;
+            list-style: none;
+            button {
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                background-color: #000;
+                border:none;
+                font-size: 0;
+            }
+        }
+        .slick-active {        
+            button {
+                background-color: transparent;
+                border: 2px solid red;
+            }    
+        }
     }
-
-    .tns-item {
-        img{
-            display: block;
-            margin: 0 auto;
-        }        
-    }    
+    
 }

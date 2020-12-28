@@ -41,6 +41,18 @@
             padding-top: 30px;
         }
     }
+   
+    .prev, .next {
+        display: none;
+    }
+    .carousel__inner {
+        width: 90%;
+    }
+    .slick-slide {        
+        img {
+            width: 100%;
+        }
+    }
     
 }
 
@@ -131,4 +143,15 @@
         margin: 0 auto;
         margin-top: 25px;
     }
+    .prev, .next {
+        display: none;
+    }
+    .carousel__inner {
+        width: 90%;
+    }
+    .slick-slide {        
+        img {
+            width: 100%;
+        }
+    }   
 }
