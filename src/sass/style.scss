@@ -11,6 +11,8 @@ a {
 }
 
 ul {
+	margin: 0;
+	padding: 0;
 	list-style: none;
 }
 
@@ -30,6 +32,7 @@ ul {
 @import "block/consultation";
 @import "block/forms";
 @import "block/carousel";
+@import "block/catalog";
 
 @import "media";
 
