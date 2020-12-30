@@ -153,5 +153,36 @@
         img {
             width: 100%;
         }
-    }   
+    }
+    .catalog {
+        padding-bottom: 40px;
+    }
+    .reviews {
+        &__title {
+            font-size: 25px;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+    }
+    .feedback {
+        &__item {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+            padding-bottom: 30px;
+        }
+        &__img {
+            margin: 0;
+            width: 150px;
+            height: 150px;
+        }
+        &__title {
+            margin-top: 20px;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        &__descr {
+            font-size: 14px;
+        }
+    } 
 }
