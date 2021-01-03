@@ -213,4 +213,32 @@
             }
         }
     }
+    .feed-form_modal {
+        input {
+            width: 245px;
+            height: 35px;
+            font-size: 12px;
+        }
+    }
+    .button_modal {
+        width: 245px;
+        font-size: 13px;
+        height: 40px;
+    }
+    .modal {
+        width: 285px;
+        min-height: 300px;
+        padding: 20px;
+        &__subtitle {
+            font-size: 15px;
+        }
+        &__descr {
+            font-size: 12px;
+        }
+        &__close {
+            right: -20px;
+            font-size: 25px;
+            line-height: 12px;
+        }
+    }
 }
