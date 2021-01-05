@@ -34,5 +34,11 @@
             text-transform: uppercase;
             text-decoration: underline;
         }
+    }   
+}
+.animated {
+    animation: heartbeat 1.5s cubic-bezier(1,0.2,0.2,0.5) infinite;
+    &:hover {
+        animation-play-state: paused;
     }
 }
